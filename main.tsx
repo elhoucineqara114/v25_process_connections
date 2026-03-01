@@ -54,7 +54,7 @@ registerMicroApps([
   },
   {
     name: 'app1',
-    entry: 'https://v25registrationbackend.vercel.app',
+    entry: 'https://v25registrationfront.vercel.app/',
     //entry: 'http://localhost:5157/',
     container: '#container-app1',
     activeRule: '/app1',

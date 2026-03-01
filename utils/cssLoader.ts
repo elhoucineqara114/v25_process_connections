@@ -18,7 +18,7 @@ const cssModules: CSSModule[] = [
     routes: ['/', '/home']
   },
   {
-    url: 'https://v25registrationbackend.vercel.app/index.css',
+    url: 'https://v25registrationfront.vercel.app/index.css',
     routes: ['/app1', '/auth']
   },
   {
