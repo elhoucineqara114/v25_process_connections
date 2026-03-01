@@ -14,95 +14,95 @@ interface CSSModule {
  */
 const cssModules: CSSModule[] = [
   {
-    url: 'https://websitev2026.netlify.app/index.css',
+    url: 'https://website-rho-five-13.vercel.app/index.css',
     routes: ['/', '/home']
   },
   {
-    url: 'https://harx25register.netlify.app/index.css',
+    url: 'https://v25registrationbackend.vercel.app/index.css',
     routes: ['/app1', '/auth']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harx25choicepage.netlify.app/index.css'
-      : 'https://harx25choicepage.netlify.app/index.css',
+      ? 'https://v25-choicepage.vercel.app/index.css'
+      : 'https://v25-choicepage.vercel.app/index.css',
     routes: ['/app2']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25repscreationwizardfrontend.netlify.app/index.css'
-      : 'https://harxv25repscreationwizardfrontend.netlify.app/index.css',
+      ? 'https://v25-repscreationwizard-frontend.vercel.app/index.css'
+      : 'https://v25-repscreationwizard-frontend.vercel.app/index.css',
     routes: ['/repcreationprofile']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25searchcompanywizardfrontend.netlify.app/index.css'
-      : 'https://harxv25searchcompanywizardfrontend.netlify.app/index.css',
+      ? 'https://v25-searchcompanywizard-frontend.vercel.app/index.css'
+      : 'https://v25-searchcompanywizard-frontend.vercel.app/index.css',
     routes: ['/app4']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25gigcreationfrontend.netlify.app/index.css'
-      : 'https://harxv25gigcreationfrontend.netlify.app/index.css',
+      ? 'https://v25-gigsaicreation-frontend.vercel.app/index.css'
+      : 'https://v25-gigsaicreation-frontend.vercel.app/index.css',
     routes: ['/app5']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25dashboardfrontend.netlify.app/index.css'
-      : 'https://harxv25dashboardfrontend.netlify.app/index.css',
+      ? 'https://v25-dashboard-frontend.vercel.app/index.css'
+      : 'https://v25-dashboard-frontend.vercel.app/index.css',
     routes: ['/company']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25gigcreationfrontend.netlify.app/index.css'
-      : 'https://harxv25gigcreationfrontend.netlify.app/index.css',
+      ? 'https://v25-gigsaicreation-frontend.vercel.app/index.css'
+      : 'https://v25-gigsaicreation-frontend.vercel.app/index.css',
     routes: ['/app6']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25dashboardrepfront.netlify.app/index.css'
-      : 'https://harxv25dashboardrepfront.netlify.app/index.css',
+      ? 'https://v25-dash-rep-back.vercel.app/index.css'
+      : 'https://v25-dash-rep-back.vercel.app/index.css',
     routes: ['/repdashboard']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25knowledgebasefrontend.netlify.app/index.css'
-      : 'https://harxv25knowledgebasefrontend.netlify.app/index.css',
+      ? 'https://v25knowledgebasebackend.vercel.app/index.css'
+      : 'https://v25knowledgebasebackend.vercel.app/index.css',
     routes: ['/knowledgebase']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25matchingfrontend.netlify.app/index.css'
-      : 'https://harxv25matchingfrontend.netlify.app/index.css',
+      ? 'https://v25-matching-frontend.vercel.app/index.css'
+      : 'https://v25-matching-frontend.vercel.app/index.css',
     routes: ['/app12']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25comporchestratorfront.netlify.app/index.css'
-      : 'https://harxv25comporchestratorfront.netlify.app/index.css',
+      ? 'https://v25-comporchestrator-front.vercel.app/index.css'
+      : 'https://v25-comporchestrator-front.vercel.app/index.css',
     routes: ['/app11']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25copilotfrontend.netlify.app/index.css'
-      : 'https://harxv25copilotfrontend.netlify.app/index.css',
+      ? 'https://v25-copilot-frontend.vercel.app/index.css'
+      : 'https://v25-copilot-frontend.vercel.app/index.css',
     routes: ['/copilot']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25trainingplatformfrontend.netlify.app/index.css'
-      : 'https://harxv25trainingplatformfrontend.netlify.app/index.css',
+      ? 'https://v25-platform-training-frontend.vercel.app/index.css'
+      : 'https://v25-platform-training-frontend.vercel.app/index.css',
     routes: ['/training']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25reporchestratorfront.netlify.app/index.css'
-      : 'https://harxv25reporchestratorfront.netlify.app/index.css',
+      ? 'https://v25-reporchestrator-front.vercel.app/index.css'
+      : 'https://v25-reporchestrator-front.vercel.app/index.css',
     routes: ['/reporchestrator']
   },
   {
     url: import.meta.env.VITE_ENVIRONMENT === 'preprod'
-      ? 'https://harxv25assessmentsfront.netlify.app/index.css'
-      : 'https://harxv25assessmentsfront.netlify.app/index.css',
+      ? 'https://v25-assesments-front.vercel.app/index.css'
+      : 'https://v25-assesments-front.vercel.app/index.css',
     routes: ['/repassessments']
   }
 ];

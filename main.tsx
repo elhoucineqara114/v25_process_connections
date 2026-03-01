@@ -41,7 +41,7 @@ const actions = initGlobalState(initialState);
 registerMicroApps([
   {
     name: 'home',
-    entry: 'https://websitev2026.netlify.app',
+    entry: 'https://website-rho-five-13.vercel.app',
     //entry: 'http://localhost:5173/',
     container: '#container-home',
     activeRule: (location) => location.pathname === '/' || location.pathname === '/home',
@@ -54,7 +54,7 @@ registerMicroApps([
   },
   {
     name: 'app1',
-    entry: 'https://harx25register.netlify.app',
+    entry: 'https://v25registrationbackend.vercel.app',
     //entry: 'http://localhost:5157/',
     container: '#container-app1',
     activeRule: '/app1',
@@ -67,7 +67,7 @@ registerMicroApps([
   },
   {
     name: 'app2',
-    entry: 'https://harx25choicepage.netlify.app',
+    entry: 'https://v25-choicepage.vercel.app',
     //entry: 'http://localhost:5173/',
     container: '#container-app2',
     activeRule: '/app2',
@@ -80,7 +80,7 @@ registerMicroApps([
   },
   {
     name: 'repcreationprofile',
-    entry: 'https://harxv25repcreationprofile.netlify.app/',
+    entry: 'https://v25-repcreationprofile-front.vercel.app/',
     container: '#container-repcreationprofile',
     activeRule: '/repcreationprofile',
     props: {
@@ -92,7 +92,7 @@ registerMicroApps([
   },
   {
     name: 'repassessments',
-    entry: 'https://harxv25assessmentsfront.netlify.app/',
+    entry: 'https://v25-assesments-front.vercel.app/',
     container: '#container-repassessments',
     activeRule: '/repassessments',
     props: {
@@ -104,7 +104,7 @@ registerMicroApps([
   },
   {
     name: 'app4',
-    entry: 'https://harxv25searchcompanywizardfrontend.netlify.app',
+    entry: 'https://v25-searchcompanywizard-frontend.vercel.app',
     container: '#container-app4',
     activeRule: '/app4',
     props: {
@@ -116,7 +116,7 @@ registerMicroApps([
   },
   {
     name: 'app5',
-    entry: 'https://harxv25gigcreationfrontend.netlify.app/',
+    entry: 'https://v25-gigsaicreation-frontend.vercel.app/',
     container: '#container-app5',
     activeRule: '/app5',
     props: {
@@ -128,7 +128,7 @@ registerMicroApps([
   },
   {
     name: 'app6',
-    entry: 'https://harxv25gigcreationfrontend.netlify.app/',
+    entry: 'https://v25-gigsaicreation-frontend.vercel.app/',
     container: '#container-app6',
     activeRule: '/app6',
     props: {
@@ -140,7 +140,7 @@ registerMicroApps([
   },
   {
     name: 'app7',
-    entry: 'https://harxv25dashboardfrontend.netlify.app/',
+    entry: 'https://v25-dashboard-frontend.vercel.app/',
     container: '#container-app7',
     activeRule: '/app7',
     props: {
@@ -152,7 +152,7 @@ registerMicroApps([
   },
   {
     name: 'gigs',
-    entry: 'https://harxv25dashboardfrontend.netlify.app/gigs',
+    entry: 'https://v25-dashboard-frontend.vercel.app/gigs',
     container: '#container-gigs',
     activeRule: '/gigs',
     props: {
@@ -164,7 +164,7 @@ registerMicroApps([
   },
   {
     name: 'company',
-    entry: 'https://harxv25dashboardfrontend.netlify.app/',
+    entry: 'https://v25-dashboard-frontend.vercel.app/',
     container: '#container-company',
     activeRule: '/company',
     props: {
@@ -176,7 +176,7 @@ registerMicroApps([
   },
   {
     name: 'repdashboard',
-    entry: 'https://harxv25dashboardrepfront.netlify.app/',
+    entry: 'https://v25-dash-rep-back.vercel.app/',
     container: '#container-app8',
     activeRule: '/repdashboard',
     props: {
@@ -188,7 +188,7 @@ registerMicroApps([
   },
   {
     name: 'reporchestrator',
-    entry: 'https://harxv25reporchestratorfront.netlify.app/',
+    entry: 'https://v25-reporchestrator-front.vercel.app/',
     container: '#container-reporchestrator',
     activeRule: '/reporchestrator',
     props: {
@@ -200,7 +200,7 @@ registerMicroApps([
   },
   {
     name: 'knowledgebase',
-    entry: 'https://harxv25knowledgebasefrontend.netlify.app/',
+    entry: 'https://v25knowledgebasebackend.vercel.app/',
     container: '#container-app9',
     activeRule: '/knowledgebase',
     props: {
@@ -212,7 +212,7 @@ registerMicroApps([
   },
   {
     name: 'app11',
-    entry: 'https://harxv25comporchestratorfront.netlify.app/',
+    entry: 'https://v25-comporchestrator-front.vercel.app/',
     container: '#container-app11',
     activeRule: '/app11',
     props: {
@@ -224,7 +224,7 @@ registerMicroApps([
   },
   {
     name: 'app12',
-    entry: 'https://harxv25matchingfrontend.netlify.app/',
+    entry: 'https://v25-matching-frontend.vercel.app/',
     container: '#container-app12',
     activeRule: '/app12',
     props: {
@@ -236,7 +236,7 @@ registerMicroApps([
   },
   {
     name: 'copilot',
-    entry: 'https://harxv25copilotfrontend.netlify.app/',
+    entry: 'https://v25-copilot-frontend.vercel.app/',
     container: '#container-copilot',
     activeRule: '/copilot',
     props: {
@@ -248,7 +248,7 @@ registerMicroApps([
   },
   {
     name: 'training',
-    entry: 'https://harxv25trainingplatformfrontend.netlify.app/',
+    entry: 'https://v25-platform-training-frontend.vercel.app/',
     container: '#container-training',
     activeRule: '/training',
     props: {
